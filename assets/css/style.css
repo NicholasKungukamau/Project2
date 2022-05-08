@@ -1,13 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+body{
+    font-family: 'Poppins','Actor','Adamina';
+}
+
 #nav {
-    background-image: url(./assets/images/moving1.png);
+    background-image: url("../images/moving\ 1.png");
+    background-size: cover; 
+    background-position: center center;
+    height:75vh;
+    width: 140vh;
+    margin: 100px;
+    
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-    height: 400px;
+
+ #nav > .navbar> ul > li{
+        display: inline-block;
+        color: white;
+        margin: 5px;
+           }
+
+    .navbar{
+        padding-left: 50%;
+        padding-top: 80px;
+    }
+    #nav> .navbar> ul> li> .log {
+ padding: 10px;
+  color: black;
+  background-color: #FAFF00;
+
+    }
+    #nav> .navbar> ul> li> .logi {
+        padding: 10px;
+         color: #FAFF00;
+         background-color: black;
+           }
+    .change{
+        color: #FAFF00;
+    font-size: 60px;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-weight: 200;
+    padding-bottom: 50px;
+    width: 50%;
+    
+
+    }
+.in{
+    color: gray;
+    padding-left: 50px;
+    font-size: 40px;
+    font-weight: 40;
+    width: 50%;
 }
+
