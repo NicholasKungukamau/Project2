@@ -84,6 +84,15 @@ height: 60vh;
     width: 150px;
     height: 20opx;
 }
+ #Top{
+    display: flex;
+    align-items: baseline;
+ }
+
+ #songa{
+display: flex;
+align-items: baseline;
+ }
 
 #tp {
 margin-left: 100px;
